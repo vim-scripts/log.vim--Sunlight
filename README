@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3814
+
+Syntax file for make output. This file will be associated with .log files.
+Place the following line in your ~/.vimrc in order to set the syntax automatically
+
+autocmd BufRead,BufNewFile *.log set syntax=log                                                                 
+
